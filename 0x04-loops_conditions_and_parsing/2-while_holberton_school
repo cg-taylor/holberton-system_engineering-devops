@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Print "Holberton School" 10 times using a for loop
+# Print "Holberton School" 10 times using a while loop
 
 count=1
 
