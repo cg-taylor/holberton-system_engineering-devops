@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# Print "Holberton School" 10 times. Print "Hi" on the 9th iteration
+
+count=1
+
+while [ $count -le 10 ];
+do
+    echo "Holberton School"
+
+    if [ $count -eq 9 ]; then
+	echo "Hi"
+    fi
+    ((count++))
+done
