@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Get information about the "holbertonschool" file
+# Get file information
 file="holbertonschool"
 
 if [ ! -e "$file" ]; then
@@ -15,5 +15,5 @@ else
 fi
 
 if [ -f "$file" ]; then
-    echo "$file" file is a regular file
+    echo "$file" is a regular file
 fi
